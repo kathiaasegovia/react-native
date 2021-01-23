@@ -3,7 +3,6 @@ import React from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import MapView from 'react-native-maps';
 
-
 export default class App extends React.Component {
   render() {
     return (
@@ -14,7 +13,6 @@ export default class App extends React.Component {
                   region={{
                              latitude:38.616639,
                              longitude:-109.619835,
-
                              latitudeDelta:.3,
                              longitudeDelta:.3
                            }}
