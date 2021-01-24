@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import MapView from 'react-native-maps';
+var MapStyles=require('./MapStyles.json');
 
 export default class App extends React.Component {
   render() {
@@ -10,6 +11,7 @@ export default class App extends React.Component {
 
             <MapView style={styles.mapStyle}
                   showCompass={true}
+                  customMapStyle={MapStyles}
                   region={{
                              latitude:38.616639,
                              longitude:-109.619835,
