@@ -6,11 +6,8 @@ var MapStyles=require('./MapStyles.json');
 
 
 export default class App extends React.Component {
-<<<<<<< HEAD
-  render() {
-=======
+
   render() { 
->>>>>>> Setup
     return (
       <View style={styles.container}>
 
