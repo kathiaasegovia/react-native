@@ -9,7 +9,6 @@ export default class App extends React.Component {
   render() { 
     return (
       <View style={styles.container}>
-
             <MapView style={styles.mapStyle}
                   showCompass={true}
                   customMapStyle={MapStyles}
